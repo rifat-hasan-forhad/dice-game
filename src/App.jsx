@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <>{value ? <GameBoard /> : <FrontPage onClickHandle={handleOnClick} />}</>
+    <>{!value ? <GameBoard /> : <FrontPage onClickHandle={handleOnClick} />}</>
   );
 }
 
