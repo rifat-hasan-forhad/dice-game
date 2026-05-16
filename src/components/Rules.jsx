@@ -7,7 +7,7 @@ const Rules = () => {
         <li>Click on dice image</li>
         <li>
           after click on dice if selected number is equal to dice number you
-          will get same point as dice{" "}
+          will get 5 points.
         </li>
         <li>if you get wrong guess then 2 point will be dedcuted </li>
       </div>
